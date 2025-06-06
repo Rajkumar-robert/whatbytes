@@ -4,7 +4,7 @@ import { Toaster } from "react-hot-toast";
 import { Roboto } from "next/font/google";
 import Footer from "./components/Footer";
 
-const roboto = Roboto({ variable: "--font-roboto-sans" });
+const roboto = Roboto({ variable: "--font-roboto-sans" , subsets: ["latin"] });
 
 export default function RootLayout({ children }) {
   return (
