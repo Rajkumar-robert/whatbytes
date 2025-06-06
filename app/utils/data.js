@@ -1,13 +1,5 @@
 export const products = [
-  {
-    id: 1,
-    title: "Running Shoes",
-    price: 99,
-    category: "Clothing",
-    description: "Comfortable running shoes for all terrains",
-    image: "/images/shoes.jpg",
-    rating: 4
-  },
+  
   {
     id: 2,
     title: "Wireless Headphones",
